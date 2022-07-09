@@ -1,0 +1,11 @@
+window:
+  w: 1800
+  h: 1000
+  title: test
+physics:
+  enable: false
+graphics:
+  scale: 1
+  debug: true
+camera:
+  speed: 5
