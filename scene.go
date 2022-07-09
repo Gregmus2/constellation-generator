@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/Gregmus2/constellation-generator/objects"
 	"github.com/Gregmus2/simple-engine/graphics"
 	"github.com/Gregmus2/simple-engine/scenes"
 	"github.com/go-gl/glfw/v3.3/glfw"
 	"math"
 	"math/rand"
-	"neurons-graph/objects"
 	"sort"
 	"time"
 )

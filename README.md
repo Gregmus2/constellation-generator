@@ -7,3 +7,9 @@ Simple constellation generator as the result of another unfinished project.
 ### Requirements
 
 ```sudo apt-get install build-essential libgl1-mesa-dev xorg-dev```
+
+### Usage
+
+Space - regenerate
+Scroll - zoom
+Mouse - move camera

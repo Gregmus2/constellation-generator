@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/Gregmus2/constellation-generator/objects"
 	engine "github.com/Gregmus2/simple-engine"
 	"github.com/sirupsen/logrus"
 	"go.uber.org/dig"
-	"neurons-graph/objects"
 	"runtime"
 )
 
