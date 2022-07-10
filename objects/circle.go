@@ -18,8 +18,8 @@ type Circle struct {
 func (m *ObjectFactory) NewCircle(model CircleModel) *Circle {
 	return &Circle{
 		CircleModel: model,
-		prog:        m.Prog,
-		Shape:       m.Shape,
+		prog:        m.program,
+		Shape:       m.shape,
 	}
 }
 

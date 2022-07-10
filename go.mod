@@ -3,7 +3,7 @@ module github.com/Gregmus2/constellation-generator
 go 1.18
 
 require (
-	github.com/Gregmus2/simple-engine v0.1.2
+	github.com/Gregmus2/simple-engine v0.2.2
 	github.com/go-gl/gl v0.0.0-20211210172815-726fda9656d6
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20200222043503-6f7a984d4dc4
 	github.com/sirupsen/logrus v1.5.0
@@ -11,7 +11,7 @@ require (
 )
 
 require (
-	github.com/ByteArena/box2d v1.0.2 // indirect
+	github.com/creasty/defaults v1.6.0 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	golang.org/x/lint v0.0.0-20190930215403-16217165b5de // indirect

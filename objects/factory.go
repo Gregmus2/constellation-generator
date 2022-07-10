@@ -1,13 +1,14 @@
 package objects
 
 import (
-	"github.com/Gregmus2/simple-engine/objects"
+	"github.com/Gregmus2/simple-engine/graphics"
 )
 
 type ObjectFactory struct {
-	*objects.ObjectFactory
+	shape   *graphics.ShapeHelper
+	program *graphics.Program
 }
 
-func NewObjectFactory(f *objects.ObjectFactory) *ObjectFactory {
-	return &ObjectFactory{ObjectFactory: f}
+func NewObjectFactory(s *graphics.ShapeHelper, p *graphics.Program) *ObjectFactory {
+	return &ObjectFactory{shape: s, program: p}
 }
